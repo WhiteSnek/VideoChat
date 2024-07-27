@@ -4,7 +4,7 @@ const cors = require('cors')
 const app = express()
 
 const options = {
-    origin: "http://localhost:5173",
+    origin: "*",
     credentials: true
 }
 
